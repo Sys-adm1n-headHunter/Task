@@ -29,6 +29,7 @@ public class Сalculator {
             case "/":
                 if (y == 0) {
                     System.out.println("Делить на ноль нельзя!");
+                    return;
                 }
                 result = x / y;
                 break;
