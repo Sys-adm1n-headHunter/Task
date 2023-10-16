@@ -19,6 +19,7 @@ public class RandomArray {
             min = Math.min(min, j);
             max = Math.max(max, j);
         }
+        //Получение большего по модулю
         int maxAbs = Math.max(Math.abs(min), Math.abs(max));
 
         System.out.println("Минимальный элемент массива равен " + min);
