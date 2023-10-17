@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Введите сообщение: ");
         String text = scanner.nextLine();
 
-        if (text.contains("java") || text.startsWith("I like") || text.endsWith("!!!")) {
+        if (text.contains("Java") || text.startsWith("I like") || text.endsWith("!!!")) {
             System.out.println(text.toUpperCase());
             String changeText= text.replace('a', 'o');
             System.out.println(changeText.substring(7, 11));
